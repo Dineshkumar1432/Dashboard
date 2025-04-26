@@ -1,0 +1,122 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.widget {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.widget h4 {
+  margin: 0 0 10px;
+}
+
+.widget p {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.widget button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.widget button:hover {
+  background-color: #c0392b;
+}
+
+.category-container {
+  margin-bottom: 30px;
+}
+
+.category-container h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.add-widget-modal {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-widget-modal h4 {
+  margin: 0 0 15px;
+  color: #333;
+}
+
+.add-widget-modal input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-widget-modal button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.add-widget-modal button:hover {
+  background-color: #45a049;
+}
+
+.add-widget-modal button.cancel {
+  background-color: #d9534f;
+}
+
+.add-widget-modal button.cancel:hover {
+  background-color: #c9302c;
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "category": "CSPM Executive Dashboard",
+        "widgets": [
+            {
+                "id": 1,
+                "name": "Cloud Account Risk Assessment",
+                "text": "Random text"
+            }
+        ]
+    },
+    {
+        "category": "CWPP Dashboard",
+        "widgets": [
+            {
+                "id": 2,
+                "name": "Top 5 Namespace Specific Alerts",
+                "text": "Random text"
+            }
+        ]
+    }
+]
